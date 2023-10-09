@@ -46,4 +46,3 @@ Function Check-RunAsAdministrator()
 Check-RunAsAdministrator
 
 write-host "Welcome"
-chkdsk
