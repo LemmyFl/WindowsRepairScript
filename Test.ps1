@@ -44,8 +44,5 @@ Function Check-RunAsAdministrator()
 #Check Script is running with Elevated Privileges
 Check-RunAsAdministrator
 
+write-host "Welcome"
 chkdsk
-
-
-
-
