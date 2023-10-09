@@ -1,15 +1,3 @@
-#---------------------------------------------------------[Initialisations]--------------------------------------------------------
-
-
-
-#----------------------------------------------------------[Declarations]----------------------------------------------------------
-
-#Script Version Test
-
-
-#-----------------------------------------------------------[Functions]------------------------------------------------------------
-
-
 Function Check-RunAsAdministrator()
 {
   #Get current user context
@@ -39,10 +27,9 @@ Function Check-RunAsAdministrator()
  
     }
 }
-
-#-----------------------------------------------------------[Execution]------------------------------------------------------------
-
+ 
 #Check Script is running with Elevated Privileges
 Check-RunAsAdministrator
-
+ 
+#Place your script here.
 write-host "Welcome"
